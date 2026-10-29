@@ -1,0 +1,26 @@
+Recorded Assignment 2 results
+These values are copied from the saved Assignment 2 PDF in the workspace.
+Run Assignment2.py to regenerate the results and plots in this folder.
+
+Advertising regression
+Training rows 160
+Test rows 40
+Random state 42
+Intercept 2.9791
+TV coefficient 0.0447
+Radio coefficient 0.1892
+Newspaper coefficient 0.0028
+Test RMSE with all three features 1.7816
+Test RMSE with TV and Radio 1.7714
+
+Digits PCA
+Input shape 1797 by 64
+Projection with two components has shape 1797 by 2
+Explained variance ratio for the first component 0.1489
+Explained variance ratio for the second component 0.1362
+Explained variance ratio for the third component 0.1179
+Thirteen components retain at least 80 percent of the clean data variance
+
+The notebook used unseeded random noise for the noisy digit images, so those
+reconstruction results vary from run to run. Assignment2.py uses seed 0 for
+repeatable noisy image results.
